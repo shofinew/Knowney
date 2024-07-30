@@ -11,9 +11,30 @@ body{
 }
 
 #header_id{
-      background-color: green;
-      height:18vh ;
+      height:18vh;
       
+      
+}
+
+#top_bar{
+      height: 45% ;
+      border: 1px solid red;
+}
+
+#logo{
+      display: inline-block;
+      font-size: 35px;
+      font-family: sans-serif;
+      margin-top: 15px;
+      
+      
+}
+
+#menu_bar{
+      height: 45% ;
+      border: 1px solid red;
+      margin-top: 5px;
+
 }
 
 #main_id{
