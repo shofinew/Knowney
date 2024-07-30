@@ -1,0 +1,31 @@
+*{
+      padding:0px;
+      margin:0px;
+}
+body{
+      max-width: 1000px;
+      height: 100vh;
+      margin:0 auto;
+      border: 1px solid red;
+      padding: 10px;
+}
+
+#header_id{
+      background-color: green;
+      height:18vh ;
+      
+}
+
+#main_id{
+      background-color: lightgreen;
+      height: 60vh;
+      margin-top: 10px;
+      
+}
+
+#footer_id{
+      background-color: lawngreen;
+      height: 20vh;
+      margin-top: 10px;
+
+}
