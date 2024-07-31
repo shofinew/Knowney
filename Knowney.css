@@ -12,35 +12,64 @@ body{
 
 #header_id{
       height:18vh;
-      
-      
+      box-sizing: border-box;
+  
 }
 
 #top_bar{
       height: 45% ;
       border: 1px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      box-sizing: border-box;
 }
 
 #logo{
+      background-color: #b1e77b;
       display: inline-block;
       font-size: 35px;
       font-family: sans-serif;
-      margin-top: 15px;
       
       
+}
+
+#point_container{
+      border: 1px solid;
+      min-width: 150px;
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:0 5px;
+      box-sizing: border-box;
+
+}
+
+#point_id{
+      font-size: 25px;
+}
+
+#point_digit{
+      font-size: 25px;
 }
 
 #menu_bar{
       height: 45% ;
       border: 1px solid red;
       margin-top: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
 }
 
 #main_id{
-      background-color: lightgreen;
+      border: 1px solid;
       height: 60vh;
       margin-top: 10px;
+      
       
 }
 
